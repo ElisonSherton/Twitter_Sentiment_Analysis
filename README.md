@@ -13,15 +13,16 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 
 **Approach**
 
-Clean the tweets - Remove user handles, extract hashtags, expand contractions (i.e. don't - dont, will've - will have etc.), remove punctuations, remove stopwords etc.
+**Clean the tweets** - Remove user handles, extract hashtags, expand contractions (i.e. don't - dont, will've - will have etc.), remove punctuations, remove stopwords etc.
 
-Feature Engineering - Add length of tweets and a meaning fraction i.e. ratio of lengths of cleaned tweet to actual tweet to the tweet dataframe.
+**Feature Engineering** - Add length of tweets and a meaning fraction i.e. ratio of lengths of cleaned tweet to actual tweet to the tweet dataframe.
 
-Create *Bag of Words and use Tfidf Vectorizer* for this purpose to weight the documents appropriately. 
+**Create Bag of Words** - Use *Tfidf Vectorizer* for this purpose to weight the documents appropriately. 
 
-Use different classification models like Logistic Regression, Naive Bayes classifier, Support Vector Machines, Decision Trees and Random Forests for classification and find out the best model and use that to make predictions on the test data.
+**Classification** - Use different classification models like Logistic Regression, Naive Bayes classifier, Support Vector Machines, Decision Trees and Random Forests for classification and find out the best model and use that to make predictions on the test data.
 
 **Results**
 
 Best validation *F1 score* - 0.6812 (Logistic Regression)
+
 Best test *F1 score* - 0.6829 (Support Vector Classifier with linear kernal)
