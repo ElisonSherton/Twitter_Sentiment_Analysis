@@ -1,4 +1,4 @@
-# Twitter_Sentiment_Analysis
+# Twitter Sentiment Analysis
  Analytics Vidhya Hackathon Practice Problem. You can find out more about the problem here: https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/lb
  
  **Problem Statement**
