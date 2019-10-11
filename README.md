@@ -25,4 +25,4 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 
 Best validation *F1 score* - 0.6812 (Logistic Regression)
 
-Best test *F1 score* - 0.6829 (Support Vector Classifier with linear kernal)
+Best test *F1 score* - 0.6829 (Support Vector Classifier with linear kernel)
